@@ -2,7 +2,7 @@
 
 // // // const MongoClient = require("mongodb").MongoClient;
 // // const uri =
-// //   "mongodb+srv://yousuf:968783yousuf@cluster1.2xgza.mongodb.net/sample_mflix?retryWrites=true&w=majority";
+// //   "mongodb+srv://yousuf:**passw**@cluster1.2xgza.mongodb.net/sample_mflix?retryWrites=true&w=majority";
 // // // const client = new MongoClient(uri, {
 // // //   useNewUrlParser: true,
 // // //   useUnifiedTopology: true,
