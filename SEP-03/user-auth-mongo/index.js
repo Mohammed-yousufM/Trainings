@@ -6,7 +6,7 @@ app.use(express.json());
 const port = 3000;
 let recentSavedUser = {};
 const uri =
-  "mongodb+srv://yousuf:iwillnotforget@cluster1.2xgza.mongodb.net/testdatabase?retryWrites=true&w=majority";
+  "mongodb+srv://username: password@cluster1.2xgza.mongodb.net/testdatabase?retryWrites=true&w=majority";
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() =>
