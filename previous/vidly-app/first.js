@@ -11,8 +11,8 @@ const movies = [
   { id: 3, name: "Sanctum", genre: "Adventure", rating: 7.5 },
 ];
 app.get("/vidly", (req, res) => {
-  //   res.send("Hello Mate");
-  res.json(movies);
+    res.sendFile(fileNamex);
+  // res.json(movies);
 });
 
 app.post("/vidly", (req, res) => {});
